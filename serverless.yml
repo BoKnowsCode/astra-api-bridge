@@ -7,6 +7,7 @@ provider:
   runtime: nodejs10.x
   stage: ${opt:stage, 'dev'}
   region: ${opt:region, 'us-east-1'}
+  stackName: ${self:service}-${self:provider.stage}
 
 functions:
   app:

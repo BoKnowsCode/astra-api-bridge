@@ -10,3 +10,4 @@ phases:
     commands:
       - echo Hello World!
       - npm run test
+      - npm run deploy -- --region us-east-1 --stage prod
