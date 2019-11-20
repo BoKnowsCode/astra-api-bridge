@@ -4,6 +4,9 @@ phases:
   install:
     runtime-versions:
       nodejs: 10
+    commands:
+      - npm ci
   build:
     commands:
       - echo Hello World!
+      - npm run test
