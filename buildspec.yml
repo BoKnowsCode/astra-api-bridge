@@ -6,4 +6,4 @@ phases:
       nodejs: 10
   build:
     commands:
-      - echo "Hello World!"
+      - echo Hello World!
